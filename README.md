@@ -27,3 +27,24 @@ If he is hit he will jump to a new random spot in the forest.
 - Also after each round output Midoriya's remaining health, and Bakugo's remaining explosions.
 
 &nbsp;&nbsp;&nbsp; Once either Midoriya is out of health or Bakugo is out of explosions the contest is over. Print the winner followed by 'PLUS ULTRA!'
+
+## Subpart a: ##
+- Generate two random numbers and save them into variables `first_number` and `second_number` (respectively).
+If the first is greater than the second print the string `first_number is greater than second_number`.
+
+## Subpart b: ##
+- Generate 3 students' (from class 1-A) coordinates. 
+Assign those to variables holding their name and put those variables into a list called `student_locations`.
+
+## Subpart c: ##
+_Hint: for a coordinate `c = ('a', 'b')` you can retrieve the first value (`a`) with `c[0]` and the second with `c[1]`._ 
+If you were to a have tuple that has 3 values you would retrieved that third value with `c[2]`, and so on.
+- Write a function that takes Midoriya's location (a coordinate) as a parameter.
+Then generate a new random coordinate and print `This is the spot!` if the newly generated spot is the same as midoriya's coordinate. 
+
+## Subpart d: ##
+- Write a new function that takes a list (namely the one from subpart b) does the same thing as subpart c for each student in the list.
+
+## Challenge Mode: ##
+- Write a function that prints a 5 by 5 grid of '_'. 
+- HINT: Remember lists can contain anything! Including other lists. So what could you do with this `row = ['_', '_', '_', _', '_']`?
