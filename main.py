@@ -21,10 +21,10 @@ def midoriya_jump(midoryia_current_location, todoroki_location):
     return midoriya_new_location
 
 
-def determine_spot_label(x, y, todoroki_location, midoriya_location):
-    if midoriya_location[0] == x and midoriya_location[1] == y:
+def determine_spot_label(proposed_coordinate, todoroki_location, midoriya_location):
+    if midoriya_location == proposed_coordinate:
         return 'M'
-    elif todoroki_location[0] == x and todoroki_location[1] == y:
+    elif todoroki_location == proposed_coordinate:
         return 'T'
     else:
         return '_'
@@ -32,7 +32,7 @@ def determine_spot_label(x, y, todoroki_location, midoriya_location):
 
 def print_forest(todoroki_location, midoriya_location):
     for y in range(FOREST_DEPTH):
-        print([determine_spot_label(x, y, todoroki_location, midoriya_location)
+        print([determine_spot_label((x, y), todoroki_location, midoriya_location)
                for x in range(FOREST_WIDTH)])
 
 
