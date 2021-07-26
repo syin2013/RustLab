@@ -43,3 +43,6 @@ You typed 12 words
 * [Python while loop](https://wiki.python.org/moin/WhileLoop)
 * [python basic operators](https://www.tutorialspoint.com/python/python_basic_operators.htm)
 * [lists](https://www.tutorialspoint.com/python/python_basic_operators.htm)
+
+## From Illustrated Guide to Python3 covers
+ch 1, 2, 3, 4, 5, 6.1, 6.5 6,6, 7.1, 7.2, 7.4, 7.5, 7.6, 8.1, 8.2, 8.3, 13.1, 13.2, 13.3, 13.4, 13.5, 13.6, 13.7, 14.1, 15.1, 15.2, 15.6, 15.7, 17.1, 17.3
