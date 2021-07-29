@@ -49,9 +49,35 @@ Before you start programming this save the `kramers_inventions.txt` file in
  If he selects an invention with exactly 5 words as the title Jerry will say `"Thats a pretty good idea"` and let his friends in.
  If it is not 5 words Jerry will say "Come on man, Im serious here!"
  Kramer will try two more times, following the the same aforementioned logic.
+ If Jerry did not let his friends in, then print `The 4 of them went to the diner that night and sat in silence` and terminate the program.
 
- TODO: Rest of show logic
+&nbsp;&nbsp;&nbsp;&nbsp;If Kramer succesfully gives a Jerry an idea he will let his friends in.
+ Then Elaine will pull a copy of her lease out of her bag with a total monthly rent of $700.
+ She will ask Jerry what he thinks the monthly rent will be and Jerry (who is for this very specific case, the user of the program) will input a number.
+ If the number is below 600, she will print "Ill take it!", if it's between 600 and 800 she will print "ehhh... maybe", and if it is above 800 she will print "There's no way I can afford that!".
 
-&nbsp;&nbsp;&nbsp;&nbsp;If Jerry did not let his friends in, then print `The 4 of them went to the diner that night and sat in silence`.
+&nbsp;&nbsp;&nbsp;&nbsp;After helping Elaine, Jerry will go to help George at the phone.
+ First George will need to decide if he's going to call her, which is a `50/50 chance`.
+ If George calls her will lead with `"My friend Kramer has an idea i think you might like for an invention, its called the <insert the invention name here>"`
+
+&nbsp;&nbsp;&nbsp;&nbsp;After all three characters are done print `A few days later:`
 
 &nbsp;&nbsp;&nbsp;&nbsp;If Jerry did let his friends in then you need to print out Jerry's comedy routine as per the results of the episode.
+&nbsp;&nbsp;&nbsp;&nbsp;
+Jerry will summarize the days events in his comedy routine.
+He will say the following
+```
+So my neighbor came over and pitched this dumb idea he calls the <insert invention name here>.
+ Whats the deal with that?
+
+ Then my friend Elaine [insert whether or not Elaine decided to buy the apartment].
+
+ And George did <or did not> call the lady back.
+```
+
+Then terminate the program.
+
+
+# Design requirements:
+You must create at least 3 functions for this program.
+ I suggest one for each character.
