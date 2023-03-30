@@ -27,3 +27,6 @@ Your brother can see the entire forest, a 5 x 5 grid, and knows that you are hid
 - Here is the documentation for the rand crate you need to use: [docs.rs/rand](https://docs.rs/rand/latest/rand/).
 - There rules are not "rules" so much as "guidelines". If you encounter a case that is ambiguous feel free to make up your own rule.
 - Ask other people for help and feedback
+
+## Challenge mode:
+- Use [Clap](https://github.com/clap-rs/clap) to generate a cli for this simulation that allows the user to change the initial parameters of the simulation, such as grid size, your brothers's stamina, how many sisters you have, etc.
