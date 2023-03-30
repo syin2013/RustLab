@@ -1,8 +1,4 @@
-# Teaching programming
+# Rust Lab Exercises
 
-&nbsp;&nbsp;&nbsp;&nbsp;These are some sample projects I used to teaching myself the semantics of languages as I'm learning them.
- They are simulations of random episodes from Boku No Hero.
+Some labs for learning Rust.
 
-## Languages included
-- Python
-- Rust
