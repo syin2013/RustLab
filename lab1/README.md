@@ -1,4 +1,4 @@
-# Project 1: Bakugo's Blind Rage #
+# Lab 1: Hide and Seek, but with explosions!
 
 ## Story ##
 &nbsp;&nbsp;&nbsp; You are playing hide and seek with your family in a forest. But you and your family have super powers. So it's not normal hide and seek, its hide and seek with explosions!
@@ -21,3 +21,9 @@ Your brother can see the entire forest, a 5 x 5 grid, and knows that you are hid
 - Also after each round output your remaining stamina, and your brother's remaining explosions.
 
 &nbsp;&nbsp;&nbsp; Once either you are out of stamina or your brother is out of explosions the contest is over. Print the winner followed by 'Time for dinner!'
+
+## Advice:
+- This exercise can be completed with sections Chapters 1-9 of [The Rust book](https://doc.rust-lang.org/book/). Though you could just use math to calculate all the results of this it's much more fun to over-engineer this! Try using structs, enums and options to represent the state of the game. For example, you could represent the forest as a struct, or a vector of a vector of enums. Feel free to really go crazy with this!
+- Here is the documentation for the rand crate you need to use: [docs.rs/rand](https://docs.rs/rand/latest/rand/).
+- There rules are not "rules" so much as "guidelines". If you encounter a case that is ambiguous feel free to make up your own rule.
+- Ask other people for help and feedback
