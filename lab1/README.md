@@ -33,3 +33,52 @@ Your brother can see the entire forest, a 5 x 5 grid, and knows that you are hid
 - Use [Clap](https://github.com/clap-rs/clap) to generate a cli for this simulation that allows the user to change the initial parameters of the simulation, such as grid size, your brothers's stamina, how many sisters you have, etc.
 - Wanna work ahead of where we are in the book? Create a `Forest` object to represent the game's current state and implement the `Display` trait.
 - Add some unit tests! I get that unit testing is kind of odd in programs that use RNG but if you design your functions cleverly you can get around that. Note that you can test private functions in rust.
+
+## Sample output:
+```
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ S _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ Y _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+Your  is attacking (1, 5)!
+Your brother hit you!
+Your health: 2
+Brother's blasts left: 2
+
+_ _ _ _ _ _ Y _ _ _
+_ _ _ _ _ _ S _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+Your Brother is attacking (8, 6)!
+Your Brother missed completely!
+Your health: 2
+Brother's blasts left: 1
+
+_ _ _ _ _ _ Y _ _ _
+_ _ _ _ _ _ S _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _
+Your Brother is attacking (4, 6)!
+Your Brother missed completely!
+Your health: 2
+Brother's blasts left: 0
+You are the winner!
+```
